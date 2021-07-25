@@ -1,0 +1,39 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Volkhov', serif;
+}
+
+.hero {
+    background: url('images/home-bg.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 45%;
+}
+
+@media (min-width: 1200px) {}
+
+.hero-heading {
+    font-size: 70px;
+    line-height: 77px;
+    /* or 106% */
+    letter-spacing: -0.04em;
+    /* 1st */
+    color: #181E4B;
+}
+
+@media (min-width: 1400px) {
+    .hero-heading {
+        font-size: 80px;
+        line-height: 89px;
+    }
+}
+
+.hero-heading span {
+    background: url('images/h-bg.png');
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: 0% 85%;
+}
